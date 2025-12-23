@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Hi, I'm Mike.
 
-Maybe say a some things about yourself.
+I have a lot of random interests.
 
-Or maybe what you plan to blog about.
+Here you'll find me prattling on about them.
