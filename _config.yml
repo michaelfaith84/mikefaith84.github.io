@@ -18,7 +18,9 @@ instagram_username: "michaelpfaith"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "slate"
+#theme: "slate"
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
 
 rss: rss
 
@@ -29,6 +31,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme 
 
 titles_from_headings:
   strip_title: true
