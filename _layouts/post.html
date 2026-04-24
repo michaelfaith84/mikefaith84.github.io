@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<link href="/css/override.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -14,6 +13,12 @@ layout: default
       {% assign author = page.author | default: site.author %}
       {%- if author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+      {%- endif -%}
+      {%- if page.categories.size > 0 -%}
+        • {% for cat in page.categories %}<a href="{{ '/' | append: cat | append: '/' | relative_url }}" class="post-category">{{ cat | replace: '-', ' ' }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+      {%- endif -%}
+      {%- if page.tags.size > 0 -%}
+        • {% for tag in page.tags %}<a href="{{ '/archive/' | relative_url }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
       {%- endif -%}</p>
   </header>
 
