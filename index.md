@@ -1,5 +1,15 @@
-Hi, I'm Mike.
+---
+layout: default
+title: Home
+---
 
-I have a lot of random interests.
+{% assign latest = site.posts.first %}
+{% if latest %}
+<div class="latest-post">
+  <h2><a href="{{ latest.url | relative_url }}">{{ latest.title | escape }}</a></h2>
+  <p class="post-meta">{{ latest.date | date: "%B %-d, %Y" }}</p>
+  {{ latest.content }}
+</div>
+{% endif %}
 
-Here you'll find me prattling on about them.
+{% include tag-cloud.html %}
