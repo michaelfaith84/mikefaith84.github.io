@@ -102,7 +102,7 @@ ul.post-list li {
 }
 
 ul.post-list .post-date {
-  color: rgba(255, 255, 255, 0.5);
+  color: #999;
   font-size: 0.85em;
 }
 
@@ -110,7 +110,7 @@ ul.post-list .post-date {
 .tag-cloud {
   margin-top: 32px;
   padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid #ddd;
 }
 
 .tag-cloud h3 {
@@ -120,12 +120,12 @@ ul.post-list .post-date {
 .tag-cloud .tag {
   display: inline-block;
   margin: 4px 6px;
-  color: rgba(255, 255, 255, 0.75);
+  color: #0F79D0;
   text-decoration: none;
 }
 
 .tag-cloud .tag:hover {
-  color: #fff;
+  color: #0a5a9e;
   text-decoration: underline;
 }
 
