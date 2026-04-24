@@ -90,3 +90,18 @@ nav.site-nav a:last-child {
   font-size: 0.8em;
   margin-top: 8px;
 }
+
+/* Category page post list */
+ul.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.post-list li {
+  margin: 8px 0;
+}
+
+ul.post-list .post-date {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85em;
+}

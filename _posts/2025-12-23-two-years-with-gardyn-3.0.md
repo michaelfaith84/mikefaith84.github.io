@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Two Years with Gardyn 3.0"
+date: 2025-12-23
+categories: growing-things
+tags:
+  - gardyn
+  - hydroponics
+  - plant care
+author: Mike Faith
+---
 ## Two Years with Gardyn 3.0
 
 I purchased a Gardyn 3.0 during the Black Friday sale of 2023. Why? Winters are hard up here in the PNW. I wanted to try to double up and benefit from gardening and the full spectrum light. I also wanted some healthier snacks on hand that I didn't have to worry about. What was my garden experience before this? I had murdered all my house plants save one pothos I amanged to keep alive for a six months (it's still around and thriving). This is a random smattering of things I learned/think are worth knowing/considering.

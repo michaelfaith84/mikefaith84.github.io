@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<ul class="post-list">
+  {% assign cat_posts = site.categories[page.category] %}
+  {% if cat_posts %}
+    {% for post in cat_posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      &mdash;
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+    {% endfor %}
+  {% else %}
+    <li>No posts yet.</li>
+  {% endif %}
+</ul>
