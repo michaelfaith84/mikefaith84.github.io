@@ -1,0 +1,23 @@
+{% if site.tags.size > 0 %}
+<div class="tag-cloud">
+  <h3>Tags</h3>
+  {% assign max_count = 0 %}
+  {% for tag in site.tags %}
+    {% if tag[1].size > max_count %}
+      {% assign max_count = tag[1].size %}
+    {% endif %}
+  {% endfor %}
+  {% for tag in site.tags %}
+    {% assign count = tag[1].size %}
+    {% assign ratio = count | times: 100 | divided_by: max_count %}
+    {% if ratio >= 67 %}
+      {% assign size_class = "tag-large" %}
+    {% elsif ratio >= 33 %}
+      {% assign size_class = "tag-medium" %}
+    {% else %}
+      {% assign size_class = "tag-small" %}
+    {% endif %}
+    <a href="{{ '/archive/' | relative_url }}#{{ tag[0] | slugify }}" class="tag {{ size_class }}">{{ tag[0] }}</a>
+  {% endfor %}
+</div>
+{% endif %}
