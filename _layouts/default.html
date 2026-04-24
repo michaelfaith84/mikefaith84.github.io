@@ -2,18 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  {% include head.html %}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="/css/override.css">
+  {% seo %}
+  {% feed_meta %}
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
+  <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css">
+  <script src="/js/highlightjs/highlight.min.js"></script>
+  <script src="/js/highlightjs/languages/plaintext.min.js"></script>
+  <script src="/js/highlightjs/languages/powershell.min.js"></script>
+  <script src="/js/highlightjs/languages/tsql.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </head>
 <body>
-  <header>
-    {% include navlinks.html %}
-  </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    {% include footer.html %}
-  </footer>
+
+  <div id="header_wrap" class="outer">
+    <header class="inner">
+      <h1 id="project_title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <h2 id="project_tagline">{{ site.description }}</h2>
+      <nav class="site-nav">
+        {% for item in site.data.nav %}
+          {% assign is_active = false %}
+          {% if page.url == item.url %}
+            {% assign is_active = true %}
+          {% elsif page.categories contains item.category %}
+            {% assign is_active = true %}
+          {% endif %}
+          <a href="{{ item.url }}"{% if is_active %} class="active"{% endif %}>{{ item.label }}</a>
+        {% endfor %}
+        <a href="/about/"{% if page.url == '/about/' %} class="active"{% endif %}>About</a>
+      </nav>
+    </header>
+  </div>
+
+  <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+      {{ content }}
+    </section>
+  </div>
+
+  <div id="footer_wrap" class="outer">
+    <footer class="inner">
+      {% include footer.html %}
+    </footer>
+  </div>
+
 </body>
-</html>   
+</html>

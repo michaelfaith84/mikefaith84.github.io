@@ -1,0 +1,12 @@
+- label: Projects
+  url: /projects/
+  category: projects
+- label: Growing Things
+  url: /growing-things/
+  category: growing-things
+- label: Biohacking
+  url: /biohacking/
+  category: biohacking
+- label: Climbing
+  url: /climbing/
+  category: climbing
