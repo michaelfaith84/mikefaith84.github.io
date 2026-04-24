@@ -9,7 +9,6 @@ tags:
   - plant care
 author: Mike Faith
 ---
-## Two Years with Gardyn 3.0
 
 I purchased a Gardyn 3.0 during the Black Friday sale of 2023. Why? Winters are hard up here in the PNW. I wanted to try to double up and benefit from gardening and the full spectrum light. I also wanted some healthier snacks on hand that I didn't have to worry about. What was my garden experience before this? I had murdered all my house plants save one pothos I amanged to keep alive for a six months (it's still around and thriving). This is a random smattering of things I learned/think are worth knowing/considering.
 
@@ -21,13 +20,13 @@ TLDR: Would I buy again? Yes.
 
 #### Credits
 
-You get 10 credits a month. Most plants are one credit. Fruits tend to be two or three. Are you going to go through 10 heads of lettuce in a month? You know, you might. This is probably the only full use of the credits. It you go 100% lettuce. Even, I'd find it wasteful only using the (compostible) y-cubes only once. I have been saving mine. After my initial one year of membership and a full year beyond, I have twenty unused y-cubes some of which are from the original starter kit. I also still have 35 reclaimed y-cubes. Seeing as I have transitioned my Gardyn to longer lived plants, I likely have two plus years of y-cubes on hand now. So, four years of y-cubes from one year of membership. I also used my credits to buy plant food heavily towards the end. I have roughly two full Gardyn bottles of veg + bloom. 
+You get 10 credits a month. Most plants are one credit. Fruits tend to be two or three. Are you going to go through 10 heads of lettuce in a month? You know, you might. This is probably the only full use of the credits. It you go 100% lettuce. Even, I'd find it wasteful only using the (compostible) y-cubes only once. I have been saving mine. After my initial one year of membership and a full year beyond, I have twenty unused y-cubes some of which are from the original starter kit. I also still have 35 reclaimed y-cubes. Seeing as I have transitioned my Gardyn to longer lived plants, I likely have two plus years of y-cubes on hand now. So, four years of y-cubes from one year of membership. I also used my credits to buy plant food heavily towards the end. I have roughly two full Gardyn bottles of veg + bloom.
 
 Suggestion: If you buy a year subscription, use your credits to buy plant food every other month.
 
 #### Kelby
 
-If you forget to take the covers off your y-cubes, Kelby will let you know. Other than that... Don't hold your breath. The app has seen some big changes kind of recently lending more to a gamification which--I'll admit--I like better. The fact that it is essentially pay to win is obnoxious. Certain things that affect your score are only available with the membership. Not sure if it's good or bad but my Gardyn currently has an 86 sans Kelby. 
+If you forget to take the covers off your y-cubes, Kelby will let you know. Other than that... Don't hold your breath. The app has seen some big changes kind of recently lending more to a gamification which--I'll admit--I like better. The fact that it is essentially pay to win is obnoxious. Certain things that affect your score are only available with the membership. Not sure if it's good or bad but my Gardyn currently has an 86 sans Kelby.
 
 What was I hoping for? Well, as someone that had never grown food before I was bound to miss some things. Like the first time lettuce bolted. I didn't realize that I should harvest it before it gets to far along. Not a word from Kelby. The time a column was disconnected and all the plants started to die? Yeah, Kelby also didn't alert me that they weren't looking healthy which was unfortunate because I was out of town... Temperature alerts as well would be nice. As in, hey guy your greens are gonna go limp if you don't cool it down. Nothing. Once, while I was growing Fairy Tale Eggplant (which was listed as discontinued; I ordered some seeds) it did randomly give me advice on handling egg plant flowers. That was cool and in line with my expectations. But it only happened when using a product they no longer offered...
 
@@ -37,7 +36,7 @@ So you want to use your own seeds (maybe saved from your Gardyn or elsewhere), h
 
 ### Accessories
 
-I bought the accessory assortment with my Gardyn. I wouldn't do it again. Why? Because you're not really saving anything. While it is discounted it's also priced such that if you want, for example, a full set of trellis you will have to buy one more than you need which offsets your savings. It's pretty great business on paper, I suppose. 
+I bought the accessory assortment with my Gardyn. I wouldn't do it again. Why? Because you're not really saving anything. While it is discounted it's also priced such that if you want, for example, a full set of trellis you will have to buy one more than you need which offsets your savings. It's pretty great business on paper, I suppose.
 
 #### Trellis
 
@@ -63,7 +62,7 @@ I have some strawberry plants that have been alive for more than a year. Hell, m
 
 ### Mixed Gardens
 
-Combing fruiting plants and greens seems like an easy win. But you'll quickly see lackluster results. Basically, as instructed, a Gardyn will have an EC of around 1200. Great for lettuce, herbs, and the like. Not so great for more than a few fruiting plants. To get decent yields on a heavy fruiting Gardyn, you'll need an EC so high lettuce won't survive. 
+Combing fruiting plants and greens seems like an easy win. But you'll quickly see lackluster results. Basically, as instructed, a Gardyn will have an EC of around 1200. Great for lettuce, herbs, and the like. Not so great for more than a few fruiting plants. To get decent yields on a heavy fruiting Gardyn, you'll need an EC so high lettuce won't survive.
 
 ### Fruiting Optimizations
 
