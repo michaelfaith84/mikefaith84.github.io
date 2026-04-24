@@ -1,13 +1,46 @@
 <hr>
 <div class="post_navi">
-  {%- if page.previous.url -%}
-  <a class="post_navi-item nav_prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
-    <div class="post_navi-arrow">&lt;</div><div class="post_navi-label">Previous Post</div><div><span>{{ page.previous.title }}</span></div>
+  {%- assign cat = page.categories.first -%}
+  {%- assign prev_post = nil -%}
+  {%- assign next_post = nil -%}
+  {%- if cat -%}
+    {%- assign cat_posts = site.categories[cat] -%}
+    {%- assign post_found = false -%}
+    {%- assign post_idx = 0 -%}
+    {%- for post in cat_posts -%}
+      {%- if post.url == page.url -%}
+        {%- assign post_idx = forloop.index0 -%}
+        {%- assign post_found = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if post_found -%}
+      {%- if post_idx > 0 -%}
+        {%- assign next_idx = post_idx | minus: 1 -%}
+        {%- assign next_post = cat_posts[next_idx] -%}
+      {%- endif -%}
+      {%- assign last_idx = cat_posts.size | minus: 1 -%}
+      {%- if post_idx < last_idx -%}
+        {%- assign prev_idx = post_idx | plus: 1 -%}
+        {%- assign prev_post = cat_posts[prev_idx] -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- assign prev_post = page.previous -%}
+    {%- assign next_post = page.next -%}
+  {%- endif -%}
+
+  {%- if prev_post -%}
+  <a class="post_navi-item nav_prev" href="{{ prev_post.url }}" title="{{ prev_post.title }}">
+    <div class="post_navi-arrow">&lt;</div>
+    <div class="post_navi-label">Previous Post</div>
+    <div><span>{{ prev_post.title }}</span></div>
   </a>
   {%- endif -%}
-  {%- if page.next.url -%}
-  <a class="post_navi-item nav_next" href="{{ page.next.url }}" title="{{ page.next.title }}">
-    <div class="post_navi-arrow">&gt;</div><div class="post_navi-label">Next Post</div><div><span>{{ page.next.title }}</span></div>
+  {%- if next_post -%}
+  <a class="post_navi-item nav_next" href="{{ next_post.url }}" title="{{ next_post.title }}">
+    <div class="post_navi-arrow">&gt;</div>
+    <div class="post_navi-label">Next Post</div>
+    <div><span>{{ next_post.title }}</span></div>
   </a>
   {%- endif -%}
 </div>
