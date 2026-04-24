@@ -34,9 +34,9 @@
           {% elsif page.categories contains item.category %}
             {% assign is_active = true %}
           {% endif %}
-          <a href="{{ item.url }}"{% if is_active %} class="active"{% endif %}>{{ item.label }}</a>
+          <a href="{{ item.url | relative_url }}"{% if is_active %} class="active"{% endif %}>{{ item.label }}</a>
         {% endfor %}
-        <a href="/about/"{% if page.url == '/about/' %} class="active"{% endif %}>About</a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>About</a>
       </nav>
     </header>
   </div>

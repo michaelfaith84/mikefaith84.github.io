@@ -63,3 +63,7 @@ nav.site-nav a.active {
   color: #fff;
   text-decoration: underline;
 }
+
+nav.site-nav a:last-child {
+  margin-right: 0;
+}
