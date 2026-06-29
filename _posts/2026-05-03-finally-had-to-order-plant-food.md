@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Final Subscription Thoughts"
-date: 2025-12-23
+date: 2026-05-03
 categories: growing-things
 tags:
   - gardyn
@@ -19,3 +19,7 @@ For 1.25 years beyond my subscription, I had plant food. I also still have 20-30
 While some varieties are exclusive to Gardyn, you can do pretty good selecting plants on your own based on their offerings. I will say that their Kale Lacinato seems to be more in line with my preferences than the variant I tried on my, My longest running Kale plant is over a year old and is the height of half a Gardyn tower.
 
 My final thought on the subscription: 3-6 months for y-cubes. Or just print your own and skip the subscription altogether.
+
+### Follow Up 6/29
+
+I have yet to open the new food.
