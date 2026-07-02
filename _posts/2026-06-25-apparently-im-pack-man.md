@@ -24,6 +24,10 @@ The most famous use of the PACK is probably Nintendo’s Amiibo.
 
 ### mo.lock
 
+<video controls>
+  <source src="/videos/packbuster_demo.webm" type="video/webm">
+</video>
+
 My life intersected with the PACK when my boss told me about Motogadget’s mo.lock. It was their second RFID lock, the previous being low frequency. The story goes that they cancelled the boss’s order and sent him an email stating more of less that they didn’t want him fucking with their products. Fast forward to a customer’s request to be able to use their implant with the mo.lock--the new fangled NFC version. The NTAG transponders in our implants are 216s--slightly different memory structure, different capability container, but same command set. The lock refused to enroll his implant. After some investigation, it is revealed that they are using the PACK (and also checking the memory for some data--not an NDEF record, just data). It comes up a few times over a couple of years but no one gives it a serious attempt. Until the boss tells me to because he’s still irked they canceled his order years ago.
 
 Because we had such limited samples, we couldn’t reverse their derivation method. That left bruting it. 65k options isn’t too bad. But how would you know when it was done? Depending on how you can time things, If you managed the ability to try one PACK a second (spoiler: you can’t), that would take more than 18 hours. You can’t just watch a light that long--at least I can’t. So that meant a fully automated solution.
@@ -38,7 +42,6 @@ I confirmed this by talking to a community member with a mo.lock and had them se
 
 <video controls>
   <source src="/videos/mo.lock_implant.webm" type="video/webm">
-  <source src="/videos/mo.lock_implant.mp4" type="video/mp4">
 </video>
 
 ### Ultimate Magic Card aka Ultimate gen4
