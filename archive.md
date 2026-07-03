@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Blog Archive
+permalink: /archive/
 ---
 
 {% for tag in site.tags %}
+
   <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
   <ul>
     {% for post in tag[1] %}
