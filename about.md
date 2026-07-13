@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Mike.
+My name is Michael Paul Faith.
 
-I have a lot of random interests.
+I'm the son of a carpenter who was born with the most post-modern of original sins: the twin war crimes of Hiroshima and Nagasaki.
 
-Here you'll find me prattling on about them.
+The majority of my life was spent as an unmedicated space cadet cast adrift in currents of the Universe--a perfection of a certain Robert Frost poem.
+
+These days I work for a well known biohacking company.
