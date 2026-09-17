@@ -2,7 +2,6 @@
 layout: post
 title: "Final Subscription Thoughts"
 date: 2026-05-03
-categories: growing-things
 tags:
   - gardyn
   - hydroponics

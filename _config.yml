@@ -1,6 +1,7 @@
 title: "mike.faith"
 author: "Mike Faith"
 description: "A random place for random thoughts." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+url: "https://mike.faith" # Absolute base URL. Share links, sitemap, feed and canonical tags are all broken without it.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -15,30 +16,27 @@ instagram_username: "michaelpfaith"
 #youtube_username: username
 #googleplus_username: +username
 
+# Support links. Blank url = hidden on /support/.
+support:
+  - label: "GitHub Sponsors"
+    url: "https://github.com/sponsors/michaelfaith84"
+    note: "One-time or monthly, through GitHub."
+  - label: "Patreon"
+    url: ""
+    note: "Monthly membership."
+  - label: "Throne"
+    url: ""
+    note: "Wishlist — send a thing instead of money."
+
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 #theme: "slate"
 remote_theme: pages-themes/slate@v0.2.0
 
-rss: rss
-
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
+permalink: /:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
-
-titles_from_headings:
-  strip_title: true
-  collections: true
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      tags: Other

@@ -2,7 +2,6 @@
 layout: post
 title: "Two Years with Gardyn 3.0"
 date: 2025-12-23
-categories: growing-things
 tags:
   - gardyn
   - hydroponics
