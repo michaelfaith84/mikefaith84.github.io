@@ -137,18 +137,32 @@ ul.post-list .post-date {
 .tag-cloud .tag-large  { font-size: 1.25em; }
 .tag-cloud .tag-medium { font-size: 1.0em; }
 .tag-cloud .tag-small  { font-size: 0.85em; }
-/* Post meta — category and tag links */
-.post-category,
+/* Post meta — tag links */
 .post-tag {
   color: #0F79D0;
   text-decoration: none;
 }
 
-.post-category:hover,
 .post-tag:hover {
   text-decoration: underline;
 }
 
-.post-category {
-  text-transform: capitalize;
+/* Support page */
+ul.support-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.support-list li {
+  margin: 14px 0;
+}
+
+.support-link {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.support-note {
+  color: #999;
+  font-size: 0.85em;
 }
