@@ -48,3 +48,7 @@ async function sectorSelect(t: Transport, sector: number): Promise<void|false> {
 ```
 
 Just suppress the error and keep on partying. Better accecss to NFC hardware would make PAK detection easier--simply telling if there are transponders in the field. But that would require firmware changes. The PAK, from what I can see, is fairly common with proprietary commands and extends to ISO15693 as well.
+
+## A Better Solution?
+
+During <a href="https://github.com/RfidResearchGroup/proxmark3/pull/3099">my time chasing down</a> a way to get the proxmark's `hw tune` command to stop saying the HF antenna was b0rked when a booster board (lc tank circuit) was in use. I _thought_ was onto something with voltage but after binning the boards with a VNA that just wasn't going to work... But the coupling state **must** have an impact physically. So I sped up the ADC that monitors the antenna and watched the voltage decay. I discovered three bands: normal coupling, lc tanks, and if the antenna was on metal. This means that an NFC controller can inherently detect **presence** which gives us a way to _know_ the difference between a PAK and a transponder dropping out of the connection. Industry wide firmeware level up?? 🤞
