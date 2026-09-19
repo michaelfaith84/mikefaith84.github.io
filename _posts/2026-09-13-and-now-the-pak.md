@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "And now, the PAK"
-date: 2026-06-29
+date: 2026-08-13
 tags:
   - rfid
   - nfc
