@@ -15,7 +15,7 @@ I stumbled upon the PAK while exploring the longstanding issue of no smartphones
 
 ## An Overview
 
-NFC features three acknowledgements to commands that don't return data: ACK (0x0A), NAK (0x00; negative acknowledgement), and the PAK (no response; passive acknowledgement). The problem is NFC controllers handle the PAK as a disconnect since no response is received. Because <a href="">homophones are fun</a>, I couldn't resist diving deeper.
+NFC features three acknowledgements to commands that don't return data: ACK (0x0A), NAK (0x00; negative acknowledgement), and the PAK (no response; passive acknowledgement). The problem is NFC controllers handle the PAK as a disconnect since no response is received. Because <a href="/2026/06/29/apparently-im-pack-man/">homophones are fun</a>, I couldn't resist diving deeper.
 
 ## But TagInfo Can Read Sector 1
 
