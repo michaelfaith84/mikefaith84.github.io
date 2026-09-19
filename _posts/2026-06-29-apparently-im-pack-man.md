@@ -7,6 +7,7 @@ tags:
   - security-research
   - access-control
   - ug4
+  - reverse-engineering
 author: Mike Faith
 ---
 
