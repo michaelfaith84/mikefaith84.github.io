@@ -59,6 +59,6 @@ During <a href="https://github.com/RfidResearchGroup/proxmark3/pull/3099">my tim
 
 But the coupling state **must** have an impact physically. So I sped up the ADC that monitors the antenna and watched the voltage decay. I discovered three bands: normal coupling, LC tanks, and when the antenna was on metal.
 
-This means that an NFC controller can inherently detect **presence**, which gives us a way to _know_ the difference between a PAK and a transponder dropping out of the connection.
+This ability to to determine coupling/presence is already in common use with lf/hf tune. The NFC controller should be able to detect presence, which gives us a way to _know_ the difference between a PAK and a transponder dropping out of the connection.
 
 Industry-wide firmware-level-up?? 🤞
