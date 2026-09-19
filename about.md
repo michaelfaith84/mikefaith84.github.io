@@ -29,6 +29,7 @@ I contribute to some open source projects, develop tools to simplify complex tas
 - [NFC Identifier](https://play.google.com/store/apps/details?id=com.dangerousthings.nfcidentifier&hl=en_US) - this helps people understand their NFC credentials v. my employer's product offerings.
 - [Flipper Wedge](https://github.com/DangerousThings/flipper-wedge) allows people to pipe RFID/NFC transponder UID(s) to paired/connected computers
 - Explored novel methods of RFID chip extraction
+- [NDEF Commander](https://play.google.com/store/apps/details?id=com.dangerousthings.ndefcommander) - Allows phones to read/write to sector 1 (ie, NTAGi2c 2k; respect the PAK) and also launch MIME records adding the ability to serve things like audio and the like from transponders
 
 #### Biohacking Related
 
@@ -57,5 +58,5 @@ I contribute to some open source projects, develop tools to simplify complex tas
 
 #### Misc
 
-- [Community Biohacking Map](https://biohackingmap.com)
-- Increased availabilty and clarity of Bellingham, WA climbing beta
+- [Community Biohacking Map](https://biohackingmap.com) - Increased availabilty and clarity of Bellingham, WA climbing beta
+- [MIDI Commander](https://play.google.com/store/apps/details?id=com.dangerousthings.midicommander) - A mobile app that lets you create/edit MIDI music from exisitng audio files
