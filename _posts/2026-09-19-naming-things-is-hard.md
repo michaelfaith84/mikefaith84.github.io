@@ -47,3 +47,5 @@ Me: Fuck it, let's just call it the xGlow<br />
 At this point, it was on brand.
 
 ![naming complaints](/images/homophones_make_bad_names.png)
+
+If I had a time machines I'd rename the xGLO to xRad because of the extra radiation. 🤷‍♂️
