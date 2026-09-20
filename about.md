@@ -30,6 +30,7 @@ I contribute to some open source projects, develop tools to simplify complex tas
 - [Flipper Wedge](https://github.com/DangerousThings/flipper-wedge) allows people to pipe RFID/NFC transponder UID(s) to paired/connected computers
 - Explored novel methods of RFID chip extraction
 - [NDEF Commander](https://play.google.com/store/apps/details?id=com.dangerousthings.ndefcommander) - Allows phones to read/write to sector 1 (ie, NTAGi2c 2k; respect the PAK) and also launch MIME records adding the ability to serve things like audio and the like from transponders
+- [Magic Commander](https://play.google.com/store/apps/details?id=com.dangerousthings.magiccommander) - Allows Android phones to configure some magic transponders including the UG4/UMC--a first.
 
 #### Biohacking Related
 
